@@ -17,11 +17,6 @@ public class PlayerHealthDisplay : MonoBehaviour
         _transform = transform;
     }
 
-    private void Start()
-    {
-
-    }
-
     public void SetMaxHearts(int maxHealth)
     {
         for (int i = 0; i < hearts.Count; i++)

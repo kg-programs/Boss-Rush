@@ -131,4 +131,9 @@ public class Damageable : MonoBehaviour
         test.knockbackForce = 0;
         Hit(test);
     }
+
+    public void revive()
+    {
+        currentHealth = maxHealth;
+    }
 }
